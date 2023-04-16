@@ -1,13 +1,12 @@
-const settingsMenu=document.querySelector(".settings-menu");
-const btn=document.getElementById("btn");
+var settingsmenu=document.querySelector(".settings-menu");
+var darkBtn=document.getElementById("dark-btn");
 function settingsMenuToggle(){
-   settingsMenu.classList.toggle("settings-menu-height");
+   settingsmenu.classList.toggle("settings-menu-height");
 }
-btn.onclick=function(){
-    btn.classList.toggle("dark-btn-on");
-    document.body.classList.toggle('dark-theme');
-    if(localStorage.getItem("theme")=="light")
-    {
+darkBtn.onclick=function(){
+    darkBtn.classList.toggle('dark-btn-on');
+    document.body.classList.toggle("dark-theme");
+    if(localStorage.getItem("theme")=="light"){
         localStorage.setItem("theme","dark");
     }
     else{
@@ -15,13 +14,13 @@ btn.onclick=function(){
     }
 }
 if(localStorage.getItem("theme")=="light"){
-        document.body.classList.remove("dark-theme");
-        btn.classList.remove("dark-btn-on");
-    }
+    darkBtn.classList.remove("dark-btn-on");
+    document.body.classList.remove("dark-theme");
+}
 else if(localStorage.getItem("theme")=="dark"){
-        document.body.classList.add("dark-theme");
-        btn.classList.add("dark-btn-on");
-    }
-else {
+    darkBtn.classList.add("dark-btn-on");
+    document.body.classList.add("dark-theme");
+}
+else{
     localStorage.setItem("theme","light");
 }
