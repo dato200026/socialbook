@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>social book</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">\
+            <img src="../project 1/images/logo.png" class="logo">
+            <ul>
+                <li><img src="../project 1/images/notification.png"></li>
+                <li><img src="../project 1/images/inbox.png"></li>
+                <li><img src="../project 1/images/video.png"> </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="../project 1/images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="online" onclick="settingsMenuToggle()">
+                <img src="../project 1/images/profile-pic.png" class="user-pic">
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="btn">
+                <span></span>
+            </div>
+            <div class="settings-frame">
+
+                <div class="upper-settings">
+                    <img src="../project 1/images/profile-pic.png">
+                    <div>
+                        <p>john nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="upper-settings">
+                <img src="../project 1/images/feedback.png">
+                <div>
+                    <p>Give feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="down-settings">
+                <div class="setting-inner">
+                    <img src="../project 1/images/setting.png" >
+                    <a href="#">Settings & Privacy</a>
+                </div>
+               <img src="../project 1/images/arrow.png">
+            </div>
+            <div class="down-settings">
+                <div class="setting-inner">
+                    <img src="../project 1/images/help.png">
+                    <a href="#">help & support</a>
+                </div class="setting-inner">
+                <img src="../project 1/images/arrow.png">
+            </div>
+            <div class="down-settings">
+                <div class="setting-inner">
+                    <img src="../project 1/images/display.png" >
+                    <a href="#">display & accessibility</a>
+                </div>
+                <img src="../project 1/images/arrow.png">
+            </div>
+            <div class="down-settings">
+                <div class="setting-inner">
+                    <img src="../project 1/images/logout.png">
+                    <a href="#">log out</a>
+                </div>
+                <img src="../project 1/images/arrow.png">
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+          <div class="imp-links">
+             <a href="#">
+                <img src="../project 1/images/news.png">
+                latest news
+             </a>
+             <a href="#">
+                <img src="../project 1/images/friends.png">
+                friends
+             </a>
+             <a href="#">
+                <img src="../project 1/images/group.png">
+                groups
+             </a>
+             <a href="#">
+                <img src="../project 1/images/marketplace.png">
+                Marketplace
+             </a>
+             <a href="#">
+                <img src="../project 1/images/watch.png">
+                watch
+             </a>
+             <a href="#" style="color:#1876f2">See more</a>
+          </div>
+          <div class="shortcuts">
+            <p>Your Shortcuts</p>
+            <a href="#">
+               <img src="../project 1/images/shortcut-1.png">
+               Web Developers
+            </a>
+            <a href="#">
+               <img src="../project 1/images/shortcut-2.png">
+               Web Design course
+            </a>
+            <a href="#">
+               <img src="../project 1/images/shortcut-3.png">
+               Full Stack Web Developers
+            </a>
+            <a href="#">
+               <img src="../project 1/images/shortcut-4.png">
+               Website Experts
+            </a>
+          </div>
+            
+        </div>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="../project 1/images/upload.png">
+                    <p>Post story</p>
+                </div>
+                <div class="story story2" >
+                    <img src="../project 1/images/member-1.png" class="other-image">
+                    <p>alison </p>
+                </div>
+                <div class="story story3" >
+                    <img src="../project 1/images/member-2.png" class="other-image">
+                    <p>derek </p>
+                </div>
+                <div class="story story4">
+                    <img src="../project 1/images/member-3.png" class="other-image">
+                    <p>alisa</p>
+                </div>
+                <div class="story story5">
+                    <img src="../project 1/images/member-4.png" class="other-image">
+                    <p>kevin </p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="post-upper">
+                   <img src="../project 1/images/profile-pic.png">
+                   <div>
+                    <h4>john nicholson</h4>
+                    <p>Public<i class="fa-solid fa-caret-down"></i> </p>
+                   </div>
+                </div>
+                <div class="post-inner">
+                    <textarea rows="3" placeholder="what's your mind"></textarea>
+                    <div class="more-features">
+                        <a href="#"><img src="../project 1/images/live-video.png"><p>Live video</p></a>
+                        <a href="#"><img src="../project 1/images/photo.png"><p>photo/video</p></a>
+                        <a href="#"><img src="../project 1/images/feeling.png"><p>feeling/acting</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-upper-content">
+                    <div class="post-upper">
+                        <img src="../project 1/images/profile-pic.png">
+                   <div>
+                    <h4>john nicholson</h4>
+                    <p>Public<i class="fa-solid fa-caret-down"></i> </p>
+                   </div>
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>    
+                    </a>
+                </div>
+                <p>Subscribe <span>@Easy Tutorials</span> Youtube to watch more videos on website development and UI design.</p>
+                <a href="#">#EasyTutorial YouTubeChannel</a>
+                <img src="../project 1/images/feed-image-1.png">
+                <div class="features">
+                    <div class="features-left">
+                        <img src="../project 1/images/like.png">
+                        <p>like</p>
+                        <img src="../project 1/images/comments.png">
+                        <p>comment</p>
+                        <img src="../project 1/images/share.png">
+                        <p>share</p>
+                    </div>
+                    <div class="features-right">
+                        <img src="../project 1/images/profile.png">
+                        <a href="#">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-upper-content">
+                    <div class="post-upper">
+                        <img src="../project 1/images/member-9.png">
+                   <div>
+                    <h4>jake anderson</h4>
+                    <p>Public<i class="fa-solid fa-caret-down"></i> </p>
+                   </div>
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>    
+                    </a>
+                </div>
+                <p>Subscribe <span>@Easy Tutorials</span> Youtube to watch more videos on website development and UI design.</p>
+                <a href="#">#EasyTutorial YouTubeChannel</a>
+                <img src="../project 1/images/feed-image-2.png">
+                <div class="features">
+                    <div class="features-left">
+                        <img src="../project 1/images/like.png">
+                        <p>like</p>
+                        <img src="../project 1/images/comments.png">
+                        <p>comment</p>
+                        <img src="../project 1/images/share.png">
+                        <p>share</p>
+                    </div>
+                    <div class="features-right">
+                        <img src="../project 1/images/profile.png">
+                        <a href="#">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-upper-content">
+                    <div class="post-upper">
+                        <img src="../project 1/images/member-6.png">
+                   <div>
+                    <h4>nino goldbern</h4>
+                    <p>Public<i class="fa-solid fa-caret-down"></i> </p>
+                   </div>
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>    
+                    </a>
+                </div>
+                <p>Subscribe <span>@Easy Tutorials</span> Youtube to watch more videos on website development and UI design.</p>
+                <a href="#">#EasyTutorial YouTubeChannel</a>
+                <img src="../project 1/images/feed-image-2.png">
+                <div class="features">
+                    <div class="features-left">
+                        <img src="../project 1/images/like.png">
+                        <p>like</p>
+                        <img src="../project 1/images/comments.png">
+                        <p>comment</p>
+                        <img src="../project 1/images/share.png">
+                        <p>share</p>
+                    </div>
+                    <div class="features-right">
+                        <img src="../project 1/images/profile.png">
+                        <a href="#">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-upper-content">
+                    <div class="post-upper">
+                        <img src="../project 1/images/member-7.png">
+                   <div>
+                    <h4>natasha silva</h4>
+                    <p>Public<i class="fa-solid fa-caret-down"></i> </p>
+                   </div>
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>    
+                    </a>
+                </div>
+                <p>Subscribe <span>@Easy Tutorials</span> Youtube to watch more videos on website development and UI design.</p>
+                <a href="#">#EasyTutorial YouTubeChannel</a>
+                <img src="../project 1/images/feed-image-4.png">
+                <div class="features">
+                    <div class="features-left">
+                        <img src="../project 1/images/like.png">
+                        <p>like</p>
+                        <img src="../project 1/images/comments.png">
+                        <p>comment</p>
+                        <img src="../project 1/images/share.png">
+                        <p>share</p>
+                    </div>
+                    <div class="features-right">
+                        <img src="../project 1/images/profile.png">
+                        <a href="#">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <p>Events</em></p>
+                <a href="#">see all</a>
+            </div>
+            <div class="event">
+                <div class="right-event">
+                    <p>18</p>
+                    <span>March</span>
+                </div>
+                <div class="left-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>round garden</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="right-event">
+                    <p>29</p>
+                    <span>January</span>
+                </div>
+                <div class="left-event">
+                    <h4>Mobile marketing</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>round garden</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <p>Advertisement</em></p>
+                <a href="#">close</a>
+            </div>
+            <img src="../project 1/images/advertisement.png">
+            <div class="sidebar-title">
+                <p>Conversation</em></p>
+                <a href="#">hide chat</a>
+            </div>
+            <div class="active-chat">
+                <div class="online">
+                    <img src="../project 1/images/member-1.png">
+                </div>
+                <p>alison mina</p>
+            </div>
+            <div class="active-chat">
+                <div class="online">
+                    <img src="../project 1/images/member-2.png">
+                </div>
+                <p>carlos garcia</p>
+            </div>
+            <div class="active-chat">
+                <div class="online">
+                    <img src="../project 1/images/member-3.png">
+                </div>
+                <p>ivy maclane</p>
+            </div>
+        </div>
+
+    </div>
+    <button>load more</button>
+    <footer>Copyright 2021 -Easy tutorials Youtube Chanell</footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/acaa5ad740.js" crossorigin="anonymous"></script>
+</body>
+</html>
